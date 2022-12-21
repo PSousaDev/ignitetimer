@@ -21,8 +21,12 @@ export const HeaderContainer = styled.header`
       border-top: 3px solid transparent;
       border-bottom: 3px solid transparent;
       &:hover {
-        border-bottom: 3px solid ${(props) => props.theme['green-500']};
+        border-bottom: 3px solid ${(props) => props.theme['orange-500']};
       }
     }
   }
+`
+export const Logo = styled.img`
+  border-radius: 9999px;
+  width: 105px;
 `
